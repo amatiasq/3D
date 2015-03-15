@@ -1,4 +1,5 @@
 DS_Store
 .DS_Store
-*.lck
+.lck
 Hoja Oculta/OldVersions
+Hoja Oculta/lockfile.lck
