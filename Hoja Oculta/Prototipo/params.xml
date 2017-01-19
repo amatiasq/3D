@@ -222,7 +222,7 @@
     <ParamWithValue>
       <name>traba_largo</name>
       <typeCode>mm</typeCode>
-      <value>29 mm</value>
+      <value>movimiento_hoja / 2 ul - 59.7 mm</value>
       <comment />
       <isKey>false</isKey>
     </ParamWithValue>
@@ -250,7 +250,7 @@
     <ParamWithValue>
       <name>traba_deslizador_largo</name>
       <typeCode>mm</typeCode>
-      <value>10 mm</value>
+      <value>25.7 mm - movimiento_deslizador / 2 ul</value>
       <comment />
       <isKey>false</isKey>
     </ParamWithValue>
