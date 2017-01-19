@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParamWithValueList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <version>20080502</version>
+  <parameterTypes>
+    <ParamType>
+      <typeName>Inventor</typeName>
+      <typeCode>0</typeCode>
+    </ParamType>
+    <ParamType>
+      <typeName>String</typeName>
+      <typeCode>1</typeCode>
+    </ParamType>
+    <ParamType>
+      <typeName>Boolean</typeName>
+      <typeCode>2</typeCode>
+    </ParamType>
+  </parameterTypes>
+  <parameters>
+    <ParamWithValue>
+      <name>base_largo</name>
+      <typeCode>mm</typeCode>
+      <value>200 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>base_ancho</name>
+      <typeCode>mm</typeCode>
+      <value>50 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>base_grosor</name>
+      <typeCode>mm</typeCode>
+      <value>4 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>base_muros_grosor</name>
+      <typeCode>mm</typeCode>
+      <value>general_grosor_minimo</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>base_muros_alto</name>
+      <typeCode>mm</typeCode>
+      <value>10.5 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>base_muros_separación</name>
+      <typeCode>mm</typeCode>
+      <value>hoja_ancho + general_margen * 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>base_rail_ancho</name>
+      <typeCode>mm</typeCode>
+      <value>6 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>base_rail_profundidad</name>
+      <typeCode>mm</typeCode>
+      <value>2 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>hoja_largo</name>
+      <typeCode>mm</typeCode>
+      <value>base_largo + 20 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>hoja_ancho</name>
+      <typeCode>mm</typeCode>
+      <value>20 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>hoja_cuerpo_largo</name>
+      <typeCode>mm</typeCode>
+      <value>100 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>hoja_diente_separacion</name>
+      <typeCode>mm</typeCode>
+      <value>10 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>hoja_diente_largo</name>
+      <typeCode>mm</typeCode>
+      <value>15 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>hoja_diente_ancho</name>
+      <typeCode>mm</typeCode>
+      <value>5 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>hoja_grosor</name>
+      <typeCode>mm</typeCode>
+      <value>general_grosor_minimo</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>hoja_rail_ancho</name>
+      <typeCode>mm</typeCode>
+      <value>base_rail_ancho - 1 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>hoja_rail_alto</name>
+      <typeCode>mm</typeCode>
+      <value>base_rail_profundidad - 1 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>tirador_ancho</name>
+      <typeCode>mm</typeCode>
+      <value>base_ancho - ( ( base_muros_grosor + general_margen ) * 2 ul )</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>tirador_deslizador_largo</name>
+      <typeCode>mm</typeCode>
+      <value>15 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>tirador_gancho_largo</name>
+      <typeCode>mm</typeCode>
+      <value>10 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>tirador_gancho_ancho</name>
+      <typeCode>mm</typeCode>
+      <value>5 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>tirador_gancho_grosor</name>
+      <typeCode>mm</typeCode>
+      <value>general_grosor_minimo</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>tirador_deslizador_grosor</name>
+      <typeCode>mm</typeCode>
+      <value>general_grosor_minimo</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>tirador_deslizador_agarre</name>
+      <typeCode>deg</typeCode>
+      <value>-20 deg</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>tirador_diente_ancho</name>
+      <typeCode>mm</typeCode>
+      <value>hoja_diente_ancho</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>general_margen</name>
+      <typeCode>mm</typeCode>
+      <value>0.2 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>tirador_diente_grosor</name>
+      <typeCode>mm</typeCode>
+      <value>hoja_grosor + general_margen</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>tirador_diente_agarre</name>
+      <typeCode>deg</typeCode>
+      <value>tirador_deslizador_agarre</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>traba_cabeza_ancho</name>
+      <typeCode>mm</typeCode>
+      <value>4 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>traba_largo</name>
+      <typeCode>mm</typeCode>
+      <value>29 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>traba_hoja_grosor</name>
+      <typeCode>mm</typeCode>
+      <value>hoja_grosor</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>traba_hoja_ancho</name>
+      <typeCode>mm</typeCode>
+      <value>2 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>traba_eje_diametro</name>
+      <typeCode>mm</typeCode>
+      <value>1.0 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>traba_deslizador_largo</name>
+      <typeCode>mm</typeCode>
+      <value>10 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>traba_deslizador_alto</name>
+      <typeCode>mm</typeCode>
+      <value>general_grosor_minimo</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>deslizador_ancho</name>
+      <typeCode>mm</typeCode>
+      <value>hoja_ancho</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>deslizador_apoyo_ancho</name>
+      <typeCode>mm</typeCode>
+      <value>( base_ancho - ( base_muros_grosor * 2 ul ) - deslizador_ancho ) / 2 ul - general_margen</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>deslizador_apoyo_largo</name>
+      <typeCode>mm</typeCode>
+      <value>deslizador_largo / 3 ul</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>deslizador_largo</name>
+      <typeCode>mm</typeCode>
+      <value>135 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>deslizador_interruptor_ancho</name>
+      <typeCode>mm</typeCode>
+      <value>( base_ancho - deslizador_ancho ) / 2 ul - base_muros_grosor - traba_hoja_ancho</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>deslizador_interruptor_separacion</name>
+      <typeCode>mm</typeCode>
+      <value>6.5 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>deslizador_interruptor_largo</name>
+      <typeCode>mm</typeCode>
+      <value>10 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>deslizador_interruptor_angulo</name>
+      <typeCode>mm</typeCode>
+      <value>30 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>deslizador_eje_ancho</name>
+      <typeCode>mm</typeCode>
+      <value>10 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>deslizador_eje_movimiento</name>
+      <typeCode>mm</typeCode>
+      <value>movimiento_deslizador</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>deslizador_eje_separacion</name>
+      <typeCode>mm</typeCode>
+      <value>( deslizador_largo - deslizador_eje_ancho ) / 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>deslizador_grosor</name>
+      <typeCode>mm</typeCode>
+      <value>3 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>tirador_diente_largo</name>
+      <typeCode>mm</typeCode>
+      <value>hoja_diente_separacion - general_margen</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>base_deslizador_largo</name>
+      <typeCode>mm</typeCode>
+      <value>76 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>base_deslizador_ancho</name>
+      <typeCode>mm</typeCode>
+      <value>5 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>base_deslizador_alto</name>
+      <typeCode>mm</typeCode>
+      <value>hoja_grosor + general_margen</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>base_deslizador_agarre</name>
+      <typeCode>deg</typeCode>
+      <value>45 deg</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>movimiento_deslizador</name>
+      <typeCode>mm</typeCode>
+      <value>base_largo - deslizador_largo - ( base_muros_grosor + tirador_deslizador_largo + general_margen ) * 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>movimiento_hoja</name>
+      <typeCode>mm</typeCode>
+      <value>base_largo - base_muros_grosor - ( tirador_diente_largo * 2 ul )</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>general_grosor_minimo</name>
+      <typeCode>mm</typeCode>
+      <value>3 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>base_traba_x</name>
+      <typeCode>mm</typeCode>
+      <value>traba_cabeza_ancho / 2 ul + general_margen</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>base_traba_y</name>
+      <typeCode>mm</typeCode>
+      <value>traba_cabeza_ancho / 2 ul + general_margen</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>ri_diametro</name>
+      <typeCode>mm</typeCode>
+      <value>base_ancho - ( ( base_muros_grosor + general_margen ) * 2 ul )</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>ri_grosor</name>
+      <typeCode>mm</typeCode>
+      <value>general_grosor_minimo</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>ri_eje_separacion</name>
+      <typeCode>mm</typeCode>
+      <value>movimiento_deslizador / 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>ri_eje_diametro</name>
+      <typeCode>mm</typeCode>
+      <value>deslizador_eje_ancho</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>ri_eje_grosor</name>
+      <typeCode>mm</typeCode>
+      <value>general_grosor_minimo</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>ri_ancla_diametro</name>
+      <typeCode>mm</typeCode>
+      <value>1 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>re_eje_diametro</name>
+      <typeCode>mm</typeCode>
+      <value>20 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>tapa_grosor</name>
+      <typeCode>mm</typeCode>
+      <value>3 mm - tapa_ranura</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>tapa_ranura</name>
+      <typeCode>mm</typeCode>
+      <value>base_muros_alto - base_deslizador_alto - deslizador_grosor - general_margen - ri_grosor - general_margen</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>re_diametro</name>
+      <typeCode>mm</typeCode>
+      <value>60 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>re_grosor</name>
+      <typeCode>mm</typeCode>
+      <value>general_grosor_minimo</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>re_eje_grosor</name>
+      <typeCode>mm</typeCode>
+      <value>general_grosor_minimo + 1 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>tapa_eje_diametro</name>
+      <typeCode>mm</typeCode>
+      <value>re_eje_diametro + general_margen</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>rs_diametro</name>
+      <typeCode>mm</typeCode>
+      <value>re_diametro</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>rs_gancho_diametro</name>
+      <typeCode>mm</typeCode>
+      <value>30 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>rs_gancho_diente</name>
+      <typeCode>mm</typeCode>
+      <value>3 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>rs_grosor</name>
+      <typeCode>mm</typeCode>
+      <value>general_grosor_minimo</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>rs_gancho_grosor</name>
+      <typeCode>mm</typeCode>
+      <value>general_grosor_minimo</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+  </parameters>
+</ParamWithValueList>
